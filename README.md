@@ -2,9 +2,9 @@
 
 ## Projeto Aluracord 
 
-Esse repositório foi desenvolvido com base na Imersão ReactJS Alura <br>
+Esse repositório foi desenvolvido com base na Imersão ReactJS Alura <br> 
 
-![AluraCord](../src/image/thumb-imersao-react.jpg 'Alura') <br>
+![AluraCord](./src/image/thumb-imersao-react.jpg 'Alura') <br>
 
 # 💻 Sobre o projeto
 
@@ -12,8 +12,9 @@ O AluraCord é um projeto realizado seguindo as aulas da imersão React Alura co
 
 ## Template da aplicação
 
-O template está disponível na seguinte URL:
-![AluraCord](../src/image/profile.jpg 'AluraCord') <br>
+Seja bem vindo ao projeto Aluracord!!!
+
+![AluraCord](./src/image/profile.jpg 'AluraCord') <br>
 
 ### 🛠 Tecnologias
 
@@ -29,21 +30,3 @@ As seguintes ferramentas foram usadas no desafio do projeto:
 
 
  <img src="https://img.shields.io/static/v1?label=DEV&message=Darcisio Almeida&color=7159c1&style=for-the-badge&logo=ghost"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Aluracord 
-Seja bem vindo ao projeto Aluracord!!! 
-
-Onde está o Layout base do projeto?
-  Link
