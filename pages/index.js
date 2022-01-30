@@ -3,8 +3,6 @@ import appConfig from "../config.json";
 import React from "react";
 import {useRouter} from 'next/router';
 
-
-
 function Titulo(props) {
   const Tag = props.tag || "h1";
   return (
@@ -46,9 +44,9 @@ export default function PaginaInicial() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          backgroundColor: appConfig.theme.colors.primary[500],
+          backgroundColor: appConfig.theme.colors.primary[200],
           backgroundImage:
-            "url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)",
+            "url(https://virtualbackgrounds.site/wp-content/uploads/2020/10/chase-center-arena-1536x864.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundBlendMode: "multiply",
@@ -78,7 +76,8 @@ export default function PaginaInicial() {
             onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               console.log('Alguém submeteu o form');
-              roteamento.push('/chat');
+              // roteamento.push('/chat?username=' + username);
+              roteamento.push(`/chat?username=${username}`);
               // window.location.href = '/chat';
             }}
             styleSheet={{
